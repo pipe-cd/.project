@@ -1,0 +1,70 @@
+# .project metadata for PipeCD
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "pipecd"
+name: "PipeCD"
+description: "GitOps style continuous delivery platform that provides consistent deployment and operations experience for any applications"
+type: "project"
+project_lead: "khanhtc1202" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#pipecd"
+    link: "https://cloud-native.slack.com/messages/pipecd"
+    primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2023-05-17T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/160" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/pipe-cd/pipecd"
+
+website: "https://pipecd.dev/"
+
+artwork: "https://landscape.cncf.io/logos/pipecd.svg"
+
+adopters:
+  path: "https://github.com/pipe-cd/pipecd/blob/master/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "pipe-cd/pipecd"
+
+social:
+  twitter: "https://twitter.com/pipecd_dev"
+
+security:
+  policy:
+    path: "https://github.com/pipe-cd/pipecd/blob/master/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/pipe-cd/pipecd/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/pipe-cd/pipecd/blob/master/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/pipe-cd/pipecd/blob/master/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/pipe-cd/pipecd/blob/master/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/pipe-cd/pipecd/blob/master/README.md"
+
+landscape:
+  category: "App Definition and Development"
+  subcategory: "Continuous Integration & Delivery"
+
+# CLOMonitor Score: 81/100
+# Documentation: 83 | License: 100 | Best Practices: 68 | Security: 68

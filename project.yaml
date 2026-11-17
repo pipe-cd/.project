@@ -24,7 +24,7 @@ repositories:
 
 website: "https://pipecd.dev/"
 
-artwork: "https://landscape.cncf.io/logos/pipecd.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/pipecd"
 
 adopters:
   path: "https://github.com/pipe-cd/pipecd/blob/master/ADOPTERS.md"
